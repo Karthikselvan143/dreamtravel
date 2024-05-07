@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    background-color:rgb(245, 245, 239) !important;
+}
+
+
+/* form */
+.register{
+    width: 80%;
+    height: 500px;
+    margin-top: 70px;
+    margin-left: 140px;
+    border-radius: 10px;
+    background: linear-gradient(to right,rgb(233, 233, 199) 60%,rgb(247, 247, 217),rgb(5, 177, 245)40%,rgb(5, 177, 245));
+}
+.register .left h1{
+   padding-top: 30px;
+   margin-left: 180px;
+   font-family: cursive;
+   color: rgb(5, 177, 245);
+}
+.register .left .logo{
+    margin-top: 10px;
+    margin-left: 190px;
+}
+.register .left .logo i{
+    border: 1px solid gray;
+    color: rgb(80, 76, 76);
+    font-size: 25px;
+    border-radius: 50%;
+    padding: 10px;
+}
+.register .left .logo i:hover{
+    background-color:rgb(19, 166, 224);
+    color: white;
+    box-shadow: 2px 2px 50px rgb(19, 166, 224);
+}
+.register .left .logo a{
+    margin-left: 20px;
+}
+.register .left p{
+    width: 350px;
+    text-align-last:center ;
+    margin-top: 10px;
+    margin-left: 140px;
+    color: rgb(99, 98, 98);
+}
+.register .left input{
+    margin-top: 10px;
+    width: 350px;
+    padding: 7px;
+    margin-left: 140px;
+}
+.register .left input[type="submit"]{
+    background-color:rgb(13, 150, 204);
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    padding: 6px;
+    width:200px;
+    box-shadow: 2px 2px white,-2px -2px white ;
+    margin-left: 210px;
+    margin-top: 20px;
+}
+.register .left input[type="submit"]:hover{
+    background-color:rgb(110, 146, 160);
+}
+.register .right{
+    position: absolute;
+    top: 200px;
+    left: 800px;
+}
+.register .right h1{
+    font-family: cursive;
+    color: white;
+    margin-left: 50px;
+}
+.register .right p{
+    width: 250px;
+    text-align-last:center ;
+    color: white;
+    margin-top: 30px;
+    font-family: cursive;
+    margin-left: 80px;
+}
+.register .right #input{
+    margin-left: 120px;
+    margin-top: 30px;
+    width: 180px;
+    background-color:rgb(5, 177, 245);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 8px;
+    border: none;
+    box-shadow: 2px 2px white,-2px -2px white ;
+    border-radius: 20px;
+}
+.register .right #input:hover{
+    background-color:rgb(19, 166, 224);
+}
+@media(max-width:379px){
+    .register{
+        width: 96%;
+        height: 520px;
+        margin-top: 60px;
+        margin-left: 5px;
+        background: linear-gradient(rgb(233, 233, 199) 65%,rgb(247, 247, 217),rgb(5, 177, 245)35%,rgb(5, 177, 245));
+    }
+    .register .left h1{
+        padding-top: 5px;
+        margin-left: 100px;
+        font-family: cursive;
+        color: rgb(5, 177, 245);
+    }
+    .register .left .logo{
+        margin-top: 5px;
+        margin-left: 55px;
+    }
+    .register .left p{
+        display: none;
+        width: 330px;
+        text-align-last:left ;
+        margin-top: 5px;
+        margin-left: 40px;
+        color: rgb(99, 98, 98);
+    }
+    .register .left input{
+        margin-top: 5px;
+        width: 300px;
+        padding: 7px;
+        margin-left: 30px;
+    }
+    .register .left input[type="submit"]{
+        background-color:rgb(13, 150, 204);
+        color: white;
+        font-weight: bold;
+        font-size: 22px;
+        border-radius: 20px;
+        border: none;
+        cursor: pointer;
+        padding: 6px;
+        width:150px;
+        box-shadow: 2px 2px white,-2px -2px white ;
+        margin-left: 110px;
+        margin-top: 10px;
+    }
+    .register .right{
+        position: absolute;
+        top: 410px;
+        left: 20px;
+    }
+    .register .right h1{
+        font-family: cursive;
+        color: white;
+        margin-left: 70px;
+    }
+    .register .right p{
+        width: 250px;
+        text-align-last:center ;
+        color: white;
+        margin-top: 10px;
+        font-family: cursive;
+        margin-left: 40px;
+    }
+    .register .right #input{
+        margin-left: 70px;
+        margin-top: 0px;
+        width: 180px;
+        background-color:rgb(5, 177, 245);
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        padding: 8px;
+        border: none;
+        box-shadow: 2px 2px white,-2px -2px white ;
+        border-radius: 20px;
+    }
+}

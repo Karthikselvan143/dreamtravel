@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    background-color:rgb(245, 245, 239) !important;
+}
+
+
+/* form */
+.signin{
+    width: 80%;
+    height: 500px;
+    margin-top: 70px;
+    margin-left: 140px;
+    border-radius: 10px;
+    background: linear-gradient(to left,rgb(233, 233, 199) 60%,rgb(247, 247, 217),rgb(5, 177, 245)40%,rgb(5, 177, 245));
+}
+.signin .left{
+    color: white;
+}
+.signin .left h1{
+    margin-left: 50px;
+    font-family: cursive;
+    padding-top: 120px;
+}
+.signin .left p{
+    width: 300px;
+    margin-left: 60px;
+    font-family: cursive;
+    text-align-last:center;
+    margin-top: 30px;
+}
+.signin .left #input{
+    margin-left: 120px;
+    margin-top: 30px;
+    width: 180px;
+    background-color:rgb(5, 177, 245);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 8px;
+    border: none;
+    box-shadow: 2px 2px white,-2px -2px white ;
+    border-radius: 20px;
+}
+.signin .left #input:hover{
+    background-color:rgb(19, 166, 224);
+}
+.signin .right{
+    position: absolute;
+    top: 100px;
+    left: 700px;
+}
+.signin .right h1{
+    color: rgb(5, 177, 245);
+    font-family: cursive;
+    font-size: 55px;
+    margin-left: 50px;
+}
+.signin .right .logo i{
+    border: 1px solid gray;
+    color: rgb(80, 76, 76);
+    font-size: 25px;
+    border-radius: 50%;
+    padding: 10px;
+}
+.signin .right .logo i:hover{
+    background-color:rgb(19, 166, 224);
+    color: white;
+    box-shadow: 2px 2px 50px rgb(19, 166, 224);
+}
+.signin .right .logo a{
+    margin-left: 20px;
+}
+.signin .right .logo{
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.signin .right p{
+    margin-top: 20px;
+    margin-left: 90px;
+    color: rgb(99, 98, 98);
+}
+.signin .right input{
+    margin-top: 20px;
+    width: 350px;
+    padding: 7px;
+    margin-left: 20px;
+}
+.signin .right .box{
+    margin-top: 5px;
+}
+.signin .right .box input{
+    margin-left: -145px;
+}
+.signin .right .box label{
+    margin-left: -165px;
+}
+.signin .right .box a{
+    margin-left: 100px;
+    color: black;
+}
+.signin .right .box a:hover{
+    color: blueviolet;
+}
+.signin .right input[type="submit"]{
+    background-color:rgb(13, 150, 204);
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    padding: 6px;
+    width:200px;
+    box-shadow: 2px 2px white,-2px -2px white ;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.signin .right input[type="submit"]:hover{
+    background-color:rgb(110, 146, 160);
+}
+.signin #a{
+   position: relative;
+   top: 115px;
+   left: 710px;
+    font-size: 18px;
+    color: blueviolet;
+}
+@media(max-width:379px){
+    .signin{
+        width: 96%;
+        height: 550px;
+        margin-top: 50px;
+        margin-left: 5px;
+        background: linear-gradient(to top,rgb(233, 233, 199) 65%,rgb(247, 247, 217),rgb(5, 177, 245)35%,rgb(5, 177, 245));
+    }
+    .signin .left h1{
+        margin-left: 90px;
+        font-family: cursive;
+        padding-top: 15px;
+    }
+    .signin .left p{
+        width: 300px;
+        margin-left: 30px;
+        font-family: cursive;
+        text-align-last:center;
+        margin-top: 15px;
+    }
+    .signin .left #input{
+        margin-left: 100px;
+        margin-top: -5px;
+        width: 150px;
+        background-color:rgb(5, 177, 245);
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        padding: 8px;
+        border: none;
+        box-shadow: 2px 2px white,-2px -2px white ;
+        border-radius: 20px;
+    }
+    .signin .right{
+        position: absolute;
+        top: 235px;
+        left: 5px;
+    }
+    .signin .right h1{
+        color: rgb(5, 177, 245);
+        font-family: cursive;
+        font-size: 35px;
+        margin-left: 100px;
+    }
+    .signin .right .logo{
+        margin-top: 5px;
+        margin-left: 60px;
+    }
+    .signin .right p{
+        margin-top: 10px;
+        margin-left: 75px;
+        color: rgb(99, 98, 98);
+    }
+    .signin .right input{
+        margin-top: 5px;
+        width: 285px;
+        padding: 7px;
+        margin-left: 30px;
+    }
+    .signin .right .box{
+        margin-top: 3px;
+    }
+    .signin .right .box input{
+        margin-left:-110px;
+    }
+    .signin .right .box label{
+        margin-left: -135px;
+    }
+    .signin .right .box a{
+        margin-left: 40px;
+        color: black;
+    }
+    .signin .right input[type="submit"]{
+        background-color:rgb(13, 150, 204);
+        color: white;
+        font-weight: bold;
+        font-size: 22px;
+        border-radius: 20px;
+        border: none;
+        cursor: pointer;
+        padding: 6px;
+        width:150px;
+        box-shadow: 2px 2px white,-2px -2px white ;
+        margin-left: 90px;
+        margin-top: 10px;
+    }
+    .signin #a{
+        position: relative;
+        top: 354px;
+        left: 115px;
+        font-size: 16px;
+        color: blueviolet;
+    }
+}

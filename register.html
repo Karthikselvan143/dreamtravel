@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="icon" href="./images/title.jpg">
+    <link rel="stylesheet" type="text/css" href="./CSS/register.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- form -->
+    <div class="register">
+        <div class="left">
+            <h1>Register Form</h1>
+            <div class="logo">
+               <a href=""><i class='bx bxl-facebook'></i></a>
+               <a href=""><i class='bx bxl-twitter' ></i></a>
+               <a href=""><i class='bx bxl-instagram' ></i></a>
+            </div>
+            <p>Enter email id and password and proceed with your new account.</p>
+           <form action="registerinsert.php" method="post">
+            <input type="text" class="form-control" name="name" placeholder=" Name" required>
+            <input type="email" class="form-control" name="email" placeholder="  E-mail" required>
+            <input type="password" class="form-control" name="password" placeholder=" Password" required>
+            <input type="password" class="form-control" name="cpassword" placeholder=" Conform Password" required>
+            <input type="submit" value="Register" name="register">
+           </form>
+        </div>
+        <div class="right">
+            <h1>Welcome Friend</h1>
+            <p>After completion of registration go to login page.</p>
+            <a href="login.html"><input type="submit" value="Go To Login" id="input" name="register"></a>
+        </div>
+    </div>
+
+       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" ></script>
+    
+</body>
+</html>
+
+
